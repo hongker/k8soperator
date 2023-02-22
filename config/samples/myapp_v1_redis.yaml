@@ -1,0 +1,7 @@
+apiVersion: myapp.demo.kubebuilder.io/v1
+kind: Redis
+metadata:
+  name: redis-sample
+spec:
+  port: 6379
+  num: 1
